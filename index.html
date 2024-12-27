@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="header" >
+        <div class="logo">
+            <img src="play-button.png" alt="" class="logo-img">
+            <h2>Search Unlimited movies, TV shows and more</h2>
+            <p>Ready to Watch? Enter the movie name to check if its a good choice!</p>
+        </div>
+        <div class="flex">
+            <input type="text" placeholder="Search movie..." id="movieName">
+            <button class="searchBtn" onclick="search()">Search Movie</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="flex-content">
+            <div>
+                <h2 class="Movietitle"></h2>
+                <p class="details"> Genre : <span id="genre"></span></p>
+                <p id="desc"></p>
+                <p class="details"> Actors : <span id="actors"></span></p>
+                <p class="details"> Director: <span id="director"></span></p>
+                <p class="details"> Awards : <span id="award"></span></p>
+                <p class="details"> Box office collection : <span id="collection"></span></p>
+                <p class="details"> Languages : <span id="lang"></span></p>
+                <p class="details"> IMBD Ratings : <span id="ratings"></span></p>
+
+            </div>
+            <div class="banner">
+                <img src="" alt="" class="img-content" id="poster">
+                <div class="suggestion">Worth Watching</div>
+            </div>
+        </div>
+
+    </div>
+    <h1 class="error-text" id="error"></h1>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
