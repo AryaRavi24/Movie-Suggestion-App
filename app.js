@@ -1,7 +1,5 @@
 
-// let api = "http://www.omdbapi.com/?apikey=c0508096&t=";
-let api = `http://www.omdbapi.com/?apikey=${process.env.NEXT_PUBLIC_OMDB_API_KEY}&t=`;
-
+let api = "http://www.omdbapi.com/?apikey=c0508096&t=";
 
 let title = document.querySelector('.Movietitle');
 let genre = document.querySelector('#genre');
